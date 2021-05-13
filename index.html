@@ -30,5 +30,16 @@
         </ul>
       </div>
     </nav>
+
+    <script>
+      window.addEventListener("scroll", (e) => {
+        var navbarPos = $(window).scrollTop();
+        if (navbarPos > 0) {
+          $(".navbar").addClass("skuyBar");
+        } else {
+          $(".navbar").removeClass("skuyBar");
+        }
+      });
+    </script>
   </body>
 </html>
