@@ -1,11 +1,39 @@
-body {
-    background-color: #abf7f5;
-  }
-
-  /* CSS Untuk Katalog.html */
+/* CSS Untuk Katalog.html */
 .kcontainer {
-    width: 85%;
-    margin: auto;
-    margin-top: 80px;
-    padding: 10px; 
-  }
+  width: 85%;
+  margin: auto;
+  margin-top: 80px;
+  padding: 10px;
+}
+
+/* navbar */
+.navbar {
+  padding-left: 100px;
+  padding-right: 100px;
+  transition: all 1s ease;
+}
+.navbar.skuyBar {
+  padding: 10px;
+  box-shadow: 0 5px 15px 0 #22222244;
+}
+.logo {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar a.logo:hover {
+  color: #0077ff;
+  text-decoration: none;
+}
+.nav.nav-item.nav-menu > li {
+  padding: 10px;
+  margin-right: 15px;
+}
+.nav.nav-item.nav-menu > li > a {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav.nav-item.nav-menu > li:hover > a {
+  color: #0077ff;
+}
