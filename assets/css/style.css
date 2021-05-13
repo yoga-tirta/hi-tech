@@ -1,0 +1,11 @@
+body {
+    background-color: #abf7f5;
+  }
+
+  /* CSS Untuk Katalog.html */
+.kcontainer {
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px; 
+  }
