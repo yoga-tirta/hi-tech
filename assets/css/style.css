@@ -22,7 +22,7 @@
   font-family: inherit;
 }
 .footer-bottom {
-  background:rgb(37, 37, 37);
+  background: rgb(37, 37, 37);
   color: white;
   padding: 0.5rem 1rem;
 }
@@ -80,4 +80,47 @@
   color: white;
   background: #0077ff;
   text-decoration: none;
+}
+/* tentang kami */
+.section-title {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+}
+.icon {
+  color: #0077ff;
+  font-size: 50px;
+}
+.icon:hover a {
+  color: white;
+  text-decoration: none;
+}
+.icon-canvas {
+  background-color: #0077ff;
+  width: 50px;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 auto;
+}
+.icon-canvas-wrapper {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
+  font-size: 25px;
+}
+.canvas-item {
+  position: relative;
+}
+.title-canvas {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
