@@ -14,14 +14,15 @@
                 display: grid;
                 grid-template-columns: 50% auto;
                 padding: 7em ;
+                align-content: center;
             }
             .zebra-table {
                 font-family: 'Times New Roman', Times, serif;
-                width: 100%;
+                width: 200%;
                 border-collapse: collapse;
                 box-shadow: 0 2px 3px 2px #ddd;
                 overflow: hidden;
-                border: 10px solid #fff;  
+                border: 10px solid #fff;
             }
             .zebra-table th, .zebra-table td {
                 vertical-align: top;
@@ -36,10 +37,7 @@
             .card-header {
                 text-align: center;
                 font-family: sans-serif;
-                padding: 15px;
-            }
-
-            
+            }         
         </style>
     </head>
 
@@ -64,7 +62,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="card-header">produk</div>
+                    <h2>Produk</h2>
+                    <p>Total jumlah produk yang akan dibeli:</p>
                     <div class="card-body">
                         <table class="zebra-table">
                             <thead>
@@ -98,6 +97,23 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">Total Pembayaran</div>
+                <div class="card-body">
+                    <ul>
+                        <li>Total Barang : 4</li>
+                        <li>Total harga : Rp. 80.000</li>
+                    </ul>
+                </div>
+                <div class="card-footer text-right">
+                    <div>
+                        <button class="btn btn-danger btn-sm">kembali</button>
+                        <button class="btn btn-success btn-sm">bayar</button>
                     </div>
                 </div>
             </div>
