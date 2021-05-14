@@ -22,7 +22,7 @@
   font-family: inherit;
 }
 .footer-bottom {
-  background:rgb(37, 37, 37);
+  background: rgb(37, 37, 37);
   color: white;
   padding: 0.5rem 1rem;
 }
@@ -59,7 +59,6 @@
 .nav.nav-item.nav-menu > li:hover > a {
   color: #0077ff;
 }
-
 /* header */
 .content-carousel {
   position: absolute;
