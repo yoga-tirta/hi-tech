@@ -8,15 +8,16 @@
 
 /* CSS untuk register.html */
 .title {
-  margin-bottom: 37px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 #kotak {
-  box-shadow: -7px -7px 5px rgba(0,0,0,0.4);
+  box-shadow: -5px -5px 5px rgba(35, 35, 35, 0.3);
   border-radius: 15px;
 }
 .card-body {
   padding: 0 65px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 65px;
   font-family: inherit;
 }
