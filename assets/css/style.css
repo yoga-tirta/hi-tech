@@ -1,4 +1,4 @@
-/* CSS Untuk Katalog.html */
+/* CSS untuk katalog.html */
 .kcontainer {
   width: 85%;
   margin: auto;
@@ -6,6 +6,27 @@
   padding: 10px;
 }
 
+/* CSS untuk register.html */
+.title {
+  margin-bottom: 37px;
+}
+#kotak {
+  box-shadow: -7px -7px 5px rgba(0,0,0,0.4);
+  border-radius: 15px;
+}
+.card-body {
+  padding: 0 65px;
+  padding-top: 50px;
+  padding-bottom: 65px;
+  font-family: inherit;
+}
+.footer-bottom {
+  background:rgb(37, 37, 37);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+/* CSS untuk index.html */
 /* navbar */
 .navbar {
   padding-left: 100px;
@@ -58,24 +79,4 @@
   color: white;
   background: #0077ff;
   text-decoration: none;
-}
-
-/* CSS untuk register.html */
-.title {
-  margin-bottom: 37px;
-}
-#kotak {
-  box-shadow: -7px -7px 5px rgba(0,0,0,0.4);
-  border-radius: 15px;
-}
-.card-body {
-  padding: 0 65px;
-  padding-top: 50px;
-  padding-bottom: 65px;
-  font-family: inherit;
-}
-.footer-bottom {
-  background:rgb(37, 37, 37);
-  color: white;
-  padding: 0.5rem 1rem;
 }
