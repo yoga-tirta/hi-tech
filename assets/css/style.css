@@ -37,3 +37,23 @@
 .nav.nav-item.nav-menu > li:hover > a {
   color: #0077ff;
 }
+
+/* CSS untuk register.html */
+.title {
+  margin-bottom: 37px;
+}
+#kotak {
+  box-shadow: -7px -7px 5px rgba(0,0,0,0.4);
+  border-radius: 15px;
+}
+.card-body {
+  padding: 0 65px;
+  padding-top: 50px;
+  padding-bottom: 65px;
+  font-family: inherit;
+}
+.footer-bottom {
+  background:rgb(37, 37, 37);
+  color: white;
+  padding: 0.5rem 1rem;
+}
