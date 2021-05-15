@@ -22,9 +22,11 @@
   font-family: inherit;
 }
 .footer-bottom {
-  background: rgb(37, 37, 37);
+  margin-top: 10px;
+  background: #333333;
   color: white;
-  padding: 0.5rem 1rem;
+  text-align: center;
+  padding: 10px 20px;
 }
 
 /* CSS untuk index.html */
