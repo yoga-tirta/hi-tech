@@ -218,3 +218,40 @@
   font-size: 20px;
   font-weight: bold;
 }
+/* contact footer */
+.title-contact {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.footer {
+  background-color: black;
+  padding: 50px 0;
+  color: white;
+}
+.title-footer {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.title-footer:after,
+.title-footer:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+}
+.title-footer:after {
+  width: 50px;
+  height: 5px;
+  background-color: #0077ff;
+  left: 0;
+}
+.title-footer:before {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  bottom: 1px;
+}
