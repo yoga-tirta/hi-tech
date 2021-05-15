@@ -5,6 +5,35 @@
   margin-top: 80px;
   padding: 10px;
 }
+.footer-bottom {
+  margin-top: 15px;
+  background: #333333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* CSS untuk keranjang.html */
+.zebra-table {
+  margin: -30px 0px -50px -50px;
+  width: 110%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 3px 2px #ddd;
+  overflow: hidden;
+  border: 10px solid #fff;
+}
+.zebra-table th, .zebra-table td {
+  vertical-align: top;
+  padding: 12px 8px;
+  text-align: center;
+  margin: 0;
+}
+.zebra-table tbody tr:nth-child(odd) {
+  background: #eee;
+}
+.card-header {
+  text-align: center;
+}
 
 /* CSS untuk register.html */
 .title {
@@ -20,13 +49,6 @@
   padding-top: 30px;
   padding-bottom: 65px;
   font-family: inherit;
-}
-.footer-bottom {
-  margin-top: 10px;
-  background: #333333;
-  color: white;
-  text-align: center;
-  padding: 10px 20px;
 }
 
 /* CSS untuk index.html */
