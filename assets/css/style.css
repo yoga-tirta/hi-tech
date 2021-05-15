@@ -167,3 +167,32 @@
 .overlay-robot-content div:hover {
   cursor: pointer;
 }
+/* tim kami */
+.tim-kami {
+  width: 19% !important;
+  margin: 0.5%;
+}
+.img-tim {
+  position: relative;
+}
+.img-tim:hover .overlay-tim {
+  display: block;
+}
+.overlay-tim {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #222222bb;
+  color: white;
+}
+.content {
+  margin-top: calc(50% - 50px);
+  text-align: center;
+}
+.tim-name {
+  font-size: 20px;
+  font-weight: bold;
+}
