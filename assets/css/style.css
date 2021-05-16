@@ -22,7 +22,8 @@
   overflow: hidden;
   border: 10px solid #fff;
 }
-.zebra-table th, .zebra-table td {
+.zebra-table th,
+.zebra-table td {
   vertical-align: top;
   padding: 12px 8px;
   text-align: center;
@@ -58,7 +59,7 @@
   padding-right: 100px;
   transition: all 1s ease;
 }
-.navbar.skuyBar {
+.skuyBar {
   padding: 10px;
   box-shadow: 0 5px 15px 0 #22222244;
 }
